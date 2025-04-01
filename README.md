@@ -104,7 +104,7 @@ Para incluir un video, súbelo a YouTube o GitHub y agrégalo aquí:
 
 Si el video está en GitHub, puedes subirlo a assets/ y agregarlo así:
 
-🔗 [Ver Video de Uso](assets/demo.mp4)
+🔗 [Ver Video de Uso](2025-04-01 12-12-19.mkv)
 
 📂 Estructura de Archivos
 
