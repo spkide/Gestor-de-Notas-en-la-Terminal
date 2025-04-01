@@ -16,7 +16,7 @@ Vim o Nano (para escribir las notas)
 
 fzf (opcional para búsqueda avanzada)
 
-Instalar fzf (opcional para búsqueda interactiva):
+📥 Instalar fzf (opcional para búsqueda interactiva):
 
 sudo apt install fzf
 
@@ -41,7 +41,8 @@ Ahora puedes ejecutar el sistema con el comando notas en cualquier lugar de tu t
 
 Puedes configurar tu editor de notas predeterminado editando la variable EDITOR en el archivo notas.sh:
 
-# Cambiar de Vim a Nano
+Cambiar de Vim a Nano
+
 EDITOR=nano
 
 🔧 Uso
@@ -72,17 +73,42 @@ notas search
 
 notas search | fzf
 
+📸 Demostraciones y Recursos
+
 🖼️ Capturas de Pantalla
 
-Puedes colocar imágenes de ejemplo en la carpeta assets/ y referenciarlas en el README como sigue:
+Coloca las imágenes dentro de la carpeta assets/ y referencia cada una en el README:
 
+### 📜 Listado de Notas  
+![Lista de notas](assets/listado_notas.png)  
 
+### 📝 Creación de Nota  
+![Creando una nota](assets/crear_nota.png)  
+
+### 🔍 Búsqueda de Notas  
+![Búsqueda con fzf](assets/busqueda_fzf.png)  
 
 🎥 Video de Demostración
 
-Para agregar un video de demostración, súbelo a GitHub, YouTube o algún servicio en línea y agrégalo aquí:
+Para incluir un video, súbelo a YouTube o GitHub y agrégalo aquí:
 
+[![Ver Video de Uso](https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
 
+Si el video está en GitHub, puedes subirlo a assets/ y agregarlo así:
+
+🔗 [Ver Video de Uso](assets/demo.mp4)
+
+📂 Estructura de Archivos
+
+gestor-notas-terminal/
+│── notas.sh                # Script principal
+│── README.md               # Documentación
+│── assets/                 # Carpeta para imágenes y videos
+│   ├── listado_notas.png   
+│   ├── crear_nota.png
+│   ├── busqueda_fzf.png
+│   ├── demo.mp4
+└── LICENSE                 # Licencia SPKIDE
 
 📜 Licencia
 
@@ -90,13 +116,4 @@ Este proyecto está bajo la licencia SPKIDE.
 
 💡 Mejoras Futuras
 
-Opción para editar notas existentes
-
-Mejorar la búsqueda con filtros avanzados
-
-Versión con almacenamiento en base de datos
-
-Mejoras en la interfaz de usuario
-
-📢 ¿Tienes ideas o mejoras? ¡Haz un fork y contribuye! 🚀
-
+✔️ Opción para editar notas existentes✔️ Mejorar la búsqueda con filtros avanzados✔️ Versión con almacenamiento en base de datos✔️ Mejoras en la interfaz de usuario
